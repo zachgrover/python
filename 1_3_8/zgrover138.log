@@ -12,3 +12,6 @@ validate(a)
 validate(a)
 # Mon, 28 Nov 2016 10:43:45
 validate()
+# Mon, 28 Nov 2016 10:52:06
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Mon, 28 Nov 2016 10:54:39
+%logstop
