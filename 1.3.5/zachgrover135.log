@@ -1,0 +1,119 @@
+%cd "C:\Users\z.grover\Documents\python\1.3.5"
+# Fri, 11 Nov 2016 10:18:50
+#test
+
+# Fri, 11 Nov 2016 10:26:29
+slogan = 'Blue Springs South is the best'
+# Fri, 11 Nov 2016 10:27:08
+type(slogan)
+#[Out]# str
+# Fri, 11 Nov 2016 10:27:23
+slogan
+#[Out]# 'Blue Springs South is the best'
+# Fri, 11 Nov 2016 10:27:33
+type('tr' + "y this")
+#[Out]# str
+# Fri, 11 Nov 2016 10:27:40
+type('tr' + 5)
+# Fri, 11 Nov 2016 10:28:25
+#7 you canot add strings and ints together 
+
+# Fri, 11 Nov 2016 10:28:38
+slogan[0]
+#[Out]# 'B'
+# Fri, 11 Nov 2016 10:28:49
+slogan[2]
+#[Out]# 'u'
+# Fri, 11 Nov 2016 10:28:58
+slogan[4]
+#[Out]# ' '
+# Fri, 11 Nov 2016 10:29:12
+slogan[30]
+# Fri, 11 Nov 2016 10:29:23
+slogan[-2]
+#[Out]# 's'
+# Fri, 11 Nov 2016 10:29:45
+slogan[-30]
+#[Out]# 'B'
+# Fri, 11 Nov 2016 10:35:12
+#8 when the number in the brackets is positive it will pickout the charachter with that number but wont wrap around. but if you use - it will wrap around.
+
+# Fri, 11 Nov 2016 10:35:34
+slogan[0:5]
+#[Out]# 'Blue '
+# Fri, 11 Nov 2016 10:35:41
+slogan[5:21]
+#[Out]# 'Springs South is'
+# Fri, 11 Nov 2016 10:35:57
+slogan[:5]
+#[Out]# 'Blue '
+# Fri, 11 Nov 2016 10:36:07
+slogan[7:]
+#[Out]# 'rings South is the best'
+# Fri, 11 Nov 2016 10:36:24
+# 9. Slicing
+
+# Fri, 11 Nov 2016 10:36:43
+slogan[26:]
+#[Out]# 'best'
+# Fri, 11 Nov 2016 10:36:59
+slogan[:22] + 'awesome!'
+#[Out]# 'Blue Springs South is awesome!'
+# Fri, 11 Nov 2016 10:37:21
+len(slogan)
+#[Out]# 30
+# Fri, 11 Nov 2016 10:39:21
+slogan[29]
+#[Out]# 't'
+# Fri, 11 Nov 2016 10:39:41
+activity = 'theater'
+# Fri, 11 Nov 2016 10:39:53
+len(activity)
+#[Out]# 7
+# Fri, 11 Nov 2016 10:41:42
+#because there are 7 characters
+
+# Fri, 11 Nov 2016 10:41:55
+activity[1 : len(activity)-1]
+#[Out]# 'heate'
+# Fri, 11 Nov 2016 10:43:20
+#it took of the first and last letter because it starts at1 and ends at the 6 letter
+
+# Fri, 11 Nov 2016 10:43:49
+%logstop
+%cd "C:\Users\z.grover\Documents\python\1.3.5"
+# Fri, 11 Nov 2016 10:48:36
+'test goo' in 'Greatest good for the greatest number!'
+#[Out]# True
+# Fri, 11 Nov 2016 10:49:18
+#it tested if goo was in the sentence
+
+# Fri, 11 Nov 2016 10:54:29
+%run C:/Users/z.grover/Documents/python/1.3.5/zachgrover135.py# Fri, 11 Nov 2016 10:55:06
+essay = Create a function how_eligible(essay) in your editor file that returns 0 to 4, equal to the number of these four characters that the essay included (You are not counting the number of times each individual character occurs.  You are counting how many of the four are in the essay at least once.). As pair programmers, generate ideas for how to solve this problem, strategize, and then code and test iteratively.  Be sure to do a lot of testing.  The code below is just a small subset of the testing that should be done to make sure your code is working properly.
+# Fri, 11 Nov 2016 10:55:24
+how_eligible('This? "Yes." No, not really!')
+# Fri, 11 Nov 2016 10:55:36
+%run C:/Users/z.grover/Documents/python/1.3.5/zachgrover135.py# Fri, 11 Nov 2016 10:55:51
+%run C:/Users/z.grover/Documents/python/1.3.5/zachgrover135.py# Fri, 11 Nov 2016 10:55:52
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 4
+# Fri, 11 Nov 2016 10:56:04
+how_eligible('Really, not a compound sentence.')
+#[Out]# 1
+# Fri, 11 Nov 2016 10:58:19
+#98 characters the last index is 97
+
+# Fri, 11 Nov 2016 10:59:32
+a = 'one string'
+# Fri, 11 Nov 2016 10:59:42
+b = 'another'
+# Fri, 11 Nov 2016 10:59:50
+c = a[:3] + ' and ' + b
+# Fri, 11 Nov 2016 11:00:00
+print(c[6:10])
+# Fri, 11 Nov 2016 11:01:38
+#it takes one and another then takes out other in another and then adds the d from and
+
+# Fri, 11 Nov 2016 11:01:44
+%logstop

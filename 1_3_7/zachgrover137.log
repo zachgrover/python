@@ -1,0 +1,131 @@
+%cd "C:\Users\z.grover\Documents\python\1_3_7"
+# Thu, 17 Nov 2016 10:21:26
+#test
+
+# Thu, 17 Nov 2016 10:25:31
+# zach grover 1.3.7 IPython log
+
+# Thu, 17 Nov 2016 10:31:33
+In []: numbers = [1, 2, 3, 4]
+# Thu, 17 Nov 2016 10:31:46
+ numbers = [1, 2, 3, 4]
+# Thu, 17 Nov 2016 10:31:59
+numbers = [1, 2, 3, 4]
+# Thu, 17 Nov 2016 10:32:24
+for item in numbers:
+    print(item**2)
+    
+# Thu, 17 Nov 2016 10:33:48
+help(range)
+# Thu, 17 Nov 2016 10:34:22
+range(4)
+#[Out]# [0, 1, 2, 3]
+# Thu, 17 Nov 2016 10:34:31
+range(20, 12, -3)
+#[Out]# [20, 17, 14]
+# Thu, 17 Nov 2016 10:34:40
+range(5, 19, 2)
+#[Out]# [5, 7, 9, 11, 13, 15, 17]
+# Thu, 17 Nov 2016 10:34:51
+# 6. range()
+
+# Thu, 17 Nov 2016 10:35:28
+range(4, 11, 2)
+#[Out]# [4, 6, 8, 10]
+# Thu, 17 Nov 2016 10:37:06
+days()
+# Thu, 17 Nov 2016 10:37:10
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmpnumslo.py"# Thu, 17 Nov 2016 10:37:35
+days()
+# Thu, 17 Nov 2016 10:39:41
+#8.(find five built in Python functions and list them)
+
+# Thu, 17 Nov 2016 10:42:43
+#ascii(),bin(),bool(),bytearray(),bytes()
+
+# Thu, 17 Nov 2016 10:58:27
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmpnew3of.py"# Thu, 17 Nov 2016 10:58:35
+DiceRoll()
+# Thu, 17 Nov 2016 10:59:31
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmpdqyej6.py"# Thu, 17 Nov 2016 10:59:35
+DiceRoll()
+# Thu, 17 Nov 2016 10:59:53
+%logstop
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+get_ipython().magic(u'cd "C:\\Users\\z.grover\\Documents\\python\\1_3_7"')
+get_ipython().magic(u'logstart zachgrover137.log append')
+#test
+
+DiceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+DiceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+DiceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+DiceRoll()
+picks()
+DiceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+diceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+diceRoll()
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+dice(1000)
+get_ipython().magic(u'logstop')
+%logstart -ort zachgrover137.log
+#test
+%cd "C:\Users\z.grover\Documents\python\1_3_7"
+%logstart -ort zachgrover137.log
+#ok
+%logstop
+# Mon, 21 Nov 2016 10:26:20
+#test
+
+# Mon, 21 Nov 2016 10:28:08
+winners =[2,10]
+# Mon, 21 Nov 2016 10:28:21
+matches([2,15],winners)
+# Mon, 21 Nov 2016 10:35:31
+%run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py# Mon, 21 Nov 2016 10:35:59
+matches([1,2,3], [1,2,3])
+# Mon, 21 Nov 2016 10:38:12
+%run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py# Mon, 21 Nov 2016 10:38:39
+matches([1,2,3],[1,2,3])
+#[Out]# <function __main__.matches>
+# Mon, 21 Nov 2016 10:38:58
+matches([1,2,3],[1,2,3])
+#[Out]# <function __main__.matches>
+# Mon, 21 Nov 2016 10:39:03
+%run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py# Mon, 21 Nov 2016 10:39:05
+matches([1,2,3],[1,2,3])
+#[Out]# 3
+# Mon, 21 Nov 2016 11:00:04
+%logstop
+get_ipython().magic(u'cd "C:\\Users\\z.grover\\Documents\\python\\1_3_7"')
+get_ipython().magic(u'logstart zachgrover137.log append')
+#test
+
+a = ethansucks
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+a = 'ethansucks'
+hangman_display('h', a)
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+hangman_display('h', a)
+hangman_display('e', a)
+hangman_display(['hsuks', a)
+hangman_display(['hesuks'], a)
+hangman_display(['h,e,s,u,k,s'], a)
+hangman_display('fsagsdgjdj', a)
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+hangman_display('fsagsdgjdj', a)
+a = 'supercalifragilisticexpialidosious'
+hangman_display('fsagsdgjdj', a)
+get_ipython().magic(u'run C:/Users/z.grover/Documents/python/1_3_7/zacchgrover137.py')
+a = 's u p e r c a l i f r a g i l i s t i  c e x p i a l i d o s i o u s '
+hangman_display(a, a)
+hangman_display('a', a)
+#1.	Sometimes code using an iterative loop can be written without a loop, simply repeating the iterated code over and over as separate lines in the program. Explain the disadvantages of developing a program this way.
+#it wastes memory and is not efficient.
+
+get_ipython().magic(u'logstop')

@@ -1,0 +1,14 @@
+%cd "C:\Users\z.grover\Documents\python\1_3_8"
+# Mon, 28 Nov 2016 10:34:10
+# zach grover 1.3.8 IPython log
+
+# Mon, 28 Nov 2016 10:43:08
+#line 2 is important because it alows you to go through the loop once if it was a it would never go through the while loop
+
+# Mon, 28 Nov 2016 10:43:21
+validate(a)
+# Mon, 28 Nov 2016 10:43:27
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Mon, 28 Nov 2016 10:43:30
+validate(a)
+# Mon, 28 Nov 2016 10:43:45
+validate()

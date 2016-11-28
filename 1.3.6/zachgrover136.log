@@ -1,0 +1,230 @@
+%cd "C:\Users\z.grover\Documents\python\1.3.6"
+# Mon, 14 Nov 2016 10:20:26
+#test
+
+# Mon, 14 Nov 2016 10:24:56
+# zach grover 1.3.6 IPython log
+
+# Mon, 14 Nov 2016 10:26:02
+(2,5,8,9)
+#[Out]# (2, 5, 8, 9)
+# Mon, 14 Nov 2016 10:26:28
+a = (2,5,8,9)
+# Mon, 14 Nov 2016 10:26:31
+a
+#[Out]# (2, 5, 8, 9)
+# Mon, 14 Nov 2016 10:30:20
+# 7. Tuples
+
+# Mon, 14 Nov 2016 10:30:31
+some_values = ('a', 'b', 3)
+# Mon, 14 Nov 2016 10:30:43
+some_values
+#[Out]# ('a', 'b', 3)
+# Mon, 14 Nov 2016 10:31:56
+some_values[0]
+#[Out]# 'a'
+# Mon, 14 Nov 2016 10:33:43
+#i am guessing it will be 'b'
+
+# Mon, 14 Nov 2016 10:33:45
+some_values[1]
+#[Out]# 'b'
+# Mon, 14 Nov 2016 10:34:55
+# 7a. wow i was right because it took the second value in the list.
+
+# Mon, 14 Nov 2016 10:35:57
+#i think it will be 'a','b',3
+
+# Mon, 14 Nov 2016 10:35:59
+some_values[0:2]
+#[Out]# ('a', 'b')
+# Mon, 14 Nov 2016 10:38:37
+#i was wrong because i thought that that it would include the last value but the 2 was the cut off point.
+
+# Mon, 14 Nov 2016 10:39:08
+# 7b.^
+
+# Mon, 14 Nov 2016 10:39:27
+some_values[2]= '3'
+# Mon, 14 Nov 2016 10:41:40
+a = 10
+# Mon, 14 Nov 2016 10:41:52
+b = (9, a, 11)
+# Mon, 14 Nov 2016 10:42:00
+b
+#[Out]# (9, 10, 11)
+# Mon, 14 Nov 2016 10:42:09
+a = 15
+# Mon, 14 Nov 2016 10:42:16
+a
+#[Out]# 15
+# Mon, 14 Nov 2016 10:42:27
+b
+#[Out]# (9, 10, 11)
+# Mon, 14 Nov 2016 10:43:23
+b[1] == 10
+#[Out]# True
+# Mon, 14 Nov 2016 10:45:18
+#8a this works because it is asking wether b[1] is 10 and it is so it returns true.
+
+# Mon, 14 Nov 2016 10:45:35
+b = (9, a , 11)
+# Mon, 14 Nov 2016 10:46:28
+b[1]
+#[Out]# 15
+# Mon, 14 Nov 2016 10:47:16
+# 8b. the b[1] value is a and a is equal to 15
+
+# Mon, 14 Nov 2016 10:47:32
+values = ['a', 'b', 3]
+# Mon, 14 Nov 2016 10:47:43
+values
+#[Out]# ['a', 'b', 3]
+# Mon, 14 Nov 2016 10:48:32
+values[1]
+#[Out]# 'b'
+# Mon, 14 Nov 2016 10:49:19
+values[1:]
+#[Out]# ['b', 3]
+# Mon, 14 Nov 2016 10:51:32
+# 9. it shows the the 1 value and the 2 value 
+
+# Mon, 14 Nov 2016 10:52:10
+values[2] == 3
+#[Out]# True
+# Mon, 14 Nov 2016 10:52:22
+values[2] + 5
+#[Out]# 8
+# Mon, 14 Nov 2016 10:52:36
+values[2]
+#[Out]# 3
+# Mon, 14 Nov 2016 10:52:51
+values[2] = '3'
+# Mon, 14 Nov 2016 10:53:29
+values[2] == 3
+#[Out]# False
+# Mon, 14 Nov 2016 10:53:45
+values[2] == '3'
+#[Out]# True
+# Mon, 14 Nov 2016 10:55:41
+# 10.in testing if [2] was equal to 3 it thought that 3 was an intiger and it was set as a string and a int is not equal to a string.
+
+# Mon, 14 Nov 2016 10:56:06
+values = values + [4, 5]
+# Mon, 14 Nov 2016 10:56:21
+values
+#[Out]# ['a', 'b', '3', 4, 5]
+# Mon, 14 Nov 2016 10:56:58
+# 11a. it added 4 and 5 to the end of the list.
+
+# Mon, 14 Nov 2016 10:57:07
+values.append([6, 7])
+# Mon, 14 Nov 2016 10:57:15
+values
+#[Out]# ['a', 'b', '3', 4, 5, [6, 7]]
+# Mon, 14 Nov 2016 10:57:25
+values[5]
+#[Out]# [6, 7]
+# Mon, 14 Nov 2016 10:57:33
+values.append(8)
+# Mon, 14 Nov 2016 10:57:41
+values
+#[Out]# ['a', 'b', '3', 4, 5, [6, 7], 8]
+# Mon, 14 Nov 2016 10:58:11
+# 11b.it added 8 at the veary end.
+
+# Mon, 14 Nov 2016 10:58:21
+%logstop
+%cd "C:\Users\z.grover\Documents\python\1.3.6"
+# Tue, 15 Nov 2016 10:22:16
+import random
+# Tue, 15 Nov 2016 10:22:32
+random.choice(values) # choose from a list
+# Tue, 15 Nov 2016 10:23:38
+random.choice(5,8)
+# Tue, 15 Nov 2016 10:23:54
+random.randint(5,8)
+#[Out]# 7
+# Tue, 15 Nov 2016 10:24:04
+random.uniform(5,8)
+#[Out]# 6.645748361610709
+# Tue, 15 Nov 2016 10:24:51
+roll_two_dice()
+# Tue, 15 Nov 2016 10:30:39
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmplfdwcv.py"# Tue, 15 Nov 2016 10:30:56
+roll_two_dice()
+#[Out]# 6
+# Tue, 15 Nov 2016 10:30:59
+roll_two_dice()
+#[Out]# 7
+# Tue, 15 Nov 2016 10:31:00
+roll_two_dice()
+#[Out]# 2
+# Tue, 15 Nov 2016 10:31:03
+roll_two_dice()
+roll_two_dice()
+v
+
+# Tue, 15 Nov 2016 10:31:06
+roll_two_dice()
+#[Out]# 9
+# Tue, 15 Nov 2016 10:35:54
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmppic8mm.py"# Tue, 15 Nov 2016 10:36:01
+guess_letter()
+# Tue, 15 Nov 2016 10:37:25
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmphzrvuo.py"# Tue, 15 Nov 2016 10:37:32
+guess_letter()
+# Tue, 15 Nov 2016 10:37:53
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmpg84vmg.py"# Tue, 15 Nov 2016 10:37:55
+guess_letter()
+# Tue, 15 Nov 2016 10:39:23
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmplq6cwd.py"# Tue, 15 Nov 2016 10:39:32
+guess_letter()
+# Tue, 15 Nov 2016 10:39:40
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmpuhzhov.py"# Tue, 15 Nov 2016 10:39:43
+guess_letter()
+#[Out]# 'u'
+# Tue, 15 Nov 2016 10:39:45
+guess_letter()
+#[Out]# 'c'
+# Tue, 15 Nov 2016 10:39:46
+guess_letter()
+#[Out]# 'n'
+# Tue, 15 Nov 2016 10:39:47
+guess_letter()
+#[Out]# 'n'
+# Tue, 15 Nov 2016 10:39:49
+guess_letter()
+#[Out]# 'a'
+# Tue, 15 Nov 2016 10:39:50
+guess_letter()
+#[Out]# 'w'
+# Tue, 15 Nov 2016 10:39:50
+guess_letter()
+#[Out]# 'y'
+# Tue, 15 Nov 2016 10:39:52
+guess_letter()
+guess_letter()
+
+#[Out]# 'j'
+# Tue, 15 Nov 2016 10:39:53
+guess_letter()
+#[Out]# 's'
+# Tue, 15 Nov 2016 10:40:21
+a = 'abcde'
+# Tue, 15 Nov 2016 10:40:30
+('a', 'b', 'c', 'd', 'e')
+#[Out]# ('a', 'b', 'c', 'd', 'e')
+# Tue, 15 Nov 2016 10:40:39
+b = ('a', 'b', 'c', 'd', 'e')
+# Tue, 15 Nov 2016 10:40:47
+c = ['a', 'b', 'c', 'd', 'e']
+# Tue, 15 Nov 2016 10:41:51
+#conclution a is a string b is a tuple and c is a list
+
+# Tue, 15 Nov 2016 10:42:58
+#conclution 2 a programer would use a tuple if they didnt want the information to change and use a list if they wanted the information to be modified.
+
+# Tue, 15 Nov 2016 10:43:25
+%logstop

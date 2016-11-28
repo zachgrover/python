@@ -1,0 +1,46 @@
+%cd "C:\Users\z.grover\Documents\python\1_3_4"
+%logstart -ort zachgrover134.log append
+#1.	What is the relationship between if-structures and glass box testing?
+# glass box testing tests every posibility by asking a ton of if stattements.
+2.	#What does a test suite do, and why do you think programmers often write test suites first, before they've even written the functions that will be tested?
+#[Out]# 2.0
+#it tests the efeciveness and corectens of a program. to make sure they are on the right track and have an outline to follow.
+%logstop
+%logstart -ort zachgrover_133.log apped
+# Wed, 16 Nov 2016 10:40:26
+%cd "C:\Users\z.grover\Documents\python\1_3_3"# Wed, 16 Nov 2016 10:40:43
+age_limit_output(10)
+# Wed, 16 Nov 2016 10:40:47
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 16 Nov 2016 10:40:50
+age_limit_output(10)
+# Wed, 16 Nov 2016 10:41:05
+age_limit_output(16)
+# Wed, 16 Nov 2016 10:42:07
+report_grade(79)
+# Wed, 16 Nov 2016 10:42:14
+report_grade(85)
+# Wed, 16 Nov 2016 10:42:25
+'t' in 'string' # includes lowercase t character
+#[Out]# True
+# Wed, 16 Nov 2016 10:42:33
+'T' in 'string' # case matters
+#[Out]# False
+# Wed, 16 Nov 2016 10:42:41
+3 in [1,2,3] # this list contains the int 3
+#[Out]# True
+# Wed, 16 Nov 2016 10:42:48
+'3' in [1,2,3] # '3' is a string, different than 3
+#[Out]# False
+# Wed, 16 Nov 2016 10:43:44
+letter_in_word('t', 'secret hangman phrase')
+#[Out]# True
+# Wed, 16 Nov 2016 10:43:51
+letter_in_word('z', 'secret hangman phrase')
+#[Out]# False
+# Wed, 16 Nov 2016 10:51:39
+#conclusion1 if something does not fit in the if statements confines it goes to the else or the elif
+#if else and and or not
+#they are all corect.
+
+# Wed, 16 Nov 2016 10:51:45
+%logstop

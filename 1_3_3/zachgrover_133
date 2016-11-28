@@ -1,0 +1,76 @@
+# IPython log file
+
+%cd "C:\Users\z.grover\Documents\python\1_3_3"
+# Mon, 31 Oct 2016 10:20:51
+check
+# Mon, 31 Oct 2016 10:24:08
+x, y = (90, 115)
+# Mon, 31 Oct 2016 10:24:13
+x, y = (90, 115)
+# Mon, 31 Oct 2016 10:24:35
+( x > 5 and x <  80) and ( y >= 3 and y <= 45)
+#[Out]# False
+# Mon, 31 Oct 2016 10:24:41
+(x>40 and x<130) and (y>=10 and y<=120)
+#[Out]# True
+# Mon, 31 Oct 2016 10:30:58
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Mon, 31 Oct 2016 10:35:04
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Mon, 31 Oct 2016 10:52:03
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Mon, 31 Oct 2016 10:52:14
+report_grade(81)
+# Mon, 31 Oct 2016 10:54:12
+report_grade(92)
+# Mon, 31 Oct 2016 10:54:17
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Mon, 31 Oct 2016 10:54:21
+report_grade(92)
+# Mon, 31 Oct 2016 10:56:08
+% logstop
+%cd "C:\Users\z.grover\Documents\python\1_3_3"
+# Wed, 02 Nov 2016 07:11:46
+age_limit_output(10)
+# Wed, 02 Nov 2016 07:11:48
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:11:56
+age_limit_output(10)
+# Wed, 02 Nov 2016 07:12:32
+age_limit_output(16)
+# Wed, 02 Nov 2016 07:15:42
+report_grade(79)
+# Wed, 02 Nov 2016 07:15:46
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:15:50
+report_grade(79)
+# Wed, 02 Nov 2016 07:16:25
+report_grade(25)
+# Wed, 02 Nov 2016 07:17:00
+report_grade(90)
+# Wed, 02 Nov 2016 07:17:04
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:17:13
+report_grade(90)
+# Wed, 02 Nov 2016 07:17:23
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:17:31
+report_grade(90)
+# Wed, 02 Nov 2016 07:19:19
+'t' in 'string' # includes lowercase t character
+#[Out]# True
+# Wed, 02 Nov 2016 07:19:33
+'T' in 'string' # case matters
+#[Out]# False
+# Wed, 02 Nov 2016 07:19:45
+3 in [1,2,3] # this list contains the int 3
+#[Out]# True
+# Wed, 02 Nov 2016 07:20:03
+'3' in [1,2,3] # '3' is a string, different than 3
+#[Out]# False
+# Wed, 02 Nov 2016 07:20:51
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:24:50
+letter_in_word(i, hi)
+# Wed, 02 Nov 2016 07:24:53
+%run C:/Users/z.grover/Documents/python/1_3_3/zachgrover1_3_3.py# Wed, 02 Nov 2016 07:25:02
+letter_in_word(i, hi)
+# Wed, 02 Nov 2016 07:25:28
+letter_in_word('t', 'secret hangman phrase')
+#[Out]# True
+# Wed, 02 Nov 2016 07:25:38
+letter_in_word('z', 'secret hangman phrase')
+#[Out]# False
+# Wed, 02 Nov 2016 07:26:04
+%logstop

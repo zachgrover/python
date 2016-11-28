@@ -1,0 +1,68 @@
+# IPython log file
+
+# Wed, 26 Oct 2016 10:28:23
+# zach grover 1.3.3 IPython log
+
+# Wed, 26 Oct 2016 10:29:21
+#2
+
+# Wed, 26 Oct 2016 10:29:24
+v
+# Wed, 26 Oct 2016 10:29:31
+a = 3
+# Wed, 26 Oct 2016 10:29:56
+a ** 2
+#[Out]# 9
+# Wed, 26 Oct 2016 10:31:33
+a == 3
+#[Out]# True
+# Wed, 26 Oct 2016 10:33:11
+#3
+
+# Wed, 26 Oct 2016 10:34:50
+a + 1 > = 2 and a ** 2 ! = 5
+# Wed, 26 Oct 2016 10:35:51
+a + 1 >= 2 and a ** 2 != 5
+#[Out]# True
+# Wed, 26 Oct 2016 10:37:07
+# 3a. Prediction:
+
+# Wed, 26 Oct 2016 10:38:56
+# 3a. Prediction:
+false
+# Wed, 26 Oct 2016 10:39:22
+a ** 2 >= 9 and not a > 3
+#[Out]# True
+# Wed, 26 Oct 2016 10:43:07
+#i thought that the a > 3 was equal for some reason
+
+# Wed, 26 Oct 2016 10:46:52
+# 3b. Prediction:false
+
+# Wed, 26 Oct 2016 10:47:10
+a + 2 == 5 or a != 3
+#[Out]# True
+# Wed, 26 Oct 2016 10:51:25
+x, y = (65, 40)
+# Wed, 26 Oct 2016 10:51:29
+x
+#[Out]# 65
+# Wed, 26 Oct 2016 10:53:59
+( x > 5 and x <  80) and ( y >= 3 and y <= 45)
+#[Out]# True
+# Wed, 26 Oct 2016 10:54:12
+(x>50 and x<80) and (y>=30 and y<=45)
+#[Out]# True
+# Wed, 26 Oct 2016 10:54:38
+#above was just checking syntax
+
+# Wed, 26 Oct 2016 10:55:22
+# 4. Compound conditional
+
+# Wed, 26 Oct 2016 10:56:30
+x, y = (110, 115)
+# Wed, 26 Oct 2016 10:56:45
+x, y = (65, 40)
+# Wed, 26 Oct 2016 10:57:32
+(x>40 and x<130) and (y>=10 and y<=120)
+#[Out]# True
