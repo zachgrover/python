@@ -15,3 +15,16 @@ validate()
 # Mon, 28 Nov 2016 10:52:06
 %run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Mon, 28 Nov 2016 10:54:39
 %logstop
+%logstart -ort zgrover328.log append
+#test
+%logstop
+%cd "C:\Users\z.grover\Documents\python\1_3_8"
+# Tue, 29 Nov 2016 10:26:21
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Tue, 29 Nov 2016 10:26:57
+def guess_winner(players)
+# Tue, 29 Nov 2016 10:27:07
+ guess_winner(players)
+# Tue, 29 Nov 2016 10:27:18
+ guess_winner()
+# Tue, 29 Nov 2016 11:01:06
+%logstop
