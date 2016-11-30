@@ -28,3 +28,36 @@ def guess_winner(players)
  guess_winner()
 # Tue, 29 Nov 2016 11:01:06
 %logstop
+%cd "C:\Users\z.grover\Documents\python\1_3_8"
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+# Wed, 30 Nov 2016 10:22:12
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:22:16
+goguess()
+# Wed, 30 Nov 2016 10:22:56
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:22:59
+goguess()
+# Wed, 30 Nov 2016 10:23:23
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:23:43
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:23:46
+goguess()
+# Wed, 30 Nov 2016 10:24:08
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:24:12
+goguess()
+# Wed, 30 Nov 2016 10:26:50
+#9.0 6000
+
+# Wed, 30 Nov 2016 10:29:56
+#11 365 depending on if it is a leap year
+
+# Wed, 30 Nov 2016 10:39:40
+#11 because you cant split the middle 
+
+# Wed, 30 Nov 2016 10:42:20
+#it i think they keep their inventory sorted because it gets oppend up multiple times.
+
+# Wed, 30 Nov 2016 10:43:30
+#a while loop runs as long as a condition is true and a for loop runns a finite number of times
+
+# Wed, 30 Nov 2016 10:46:03
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py# Wed, 30 Nov 2016 10:46:14
+%logstop
