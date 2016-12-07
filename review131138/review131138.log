@@ -1,0 +1,116 @@
+%cd "C:\Users\z.grover\Documents\python\review131138"
+# Mon, 05 Dec 2016 10:57:19
+from Variables131138 import *
+# Mon, 05 Dec 2016 10:58:24
+%logstop
+%cd "C:\Users\z.grover\Documents\python\review131138"
+# Tue, 06 Dec 2016 10:15:43
+#test
+
+# Tue, 06 Dec 2016 10:38:49
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:38:56
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:39:06
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:39:17
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:39:22
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:39:36
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:40:04
+pigLatin(nameList)
+# Tue, 06 Dec 2016 10:40:31
+piglatin(nameList)
+# Tue, 06 Dec 2016 10:44:38
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:44:40
+piglatin(nameList)
+#[Out]# ['O',
+#[Out]#  't',
+#[Out]#  't',
+#[Out]#  'o',
+#[Out]#  'a',
+#[Out]#  'y',
+#[Out]#  'A',
+#[Out]#  'p',
+#[Out]#  'u',
+#[Out]#  'a',
+#[Out]#  'y',
+#[Out]#  'U',
+#[Out]#  't',
+#[Out]#  'e',
+#[Out]#  'r',
+#[Out]#  'a',
+#[Out]#  'y',
+#[Out]#  'E',
+#[Out]#  'r',
+#[Out]#  'n',
+#[Out]#  'e',
+#[Out]#  's',
+#[Out]#  't',
+#[Out]#  'a',
+#[Out]#  'y',
+#[Out]#  'I',
+#[Out]#  's',
+#[Out]#  'a',
+#[Out]#  'b',
+#[Out]#  'e',
+#[Out]#  'l',
+#[Out]#  'l',
+#[Out]#  'a',
+#[Out]#  'a',
+#[Out]#  'y']
+# Tue, 06 Dec 2016 10:47:25
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:47:27
+piglatin(nameList)
+#[Out]# ['Ottoay', 'Apuay', 'Uteray', 'Ernestay', 'Isabellaay']
+# Tue, 06 Dec 2016 10:54:38
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:54:41
+piglatin(nameList)
+# Tue, 06 Dec 2016 10:55:46
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:56:35
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:56:38
+piglatin(nameList)
+# Tue, 06 Dec 2016 10:58:01
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:58:03
+piglatin(nameList)
+# Tue, 06 Dec 2016 10:58:17
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:58:20
+piglatin(nameList)
+# Tue, 06 Dec 2016 10:59:32
+%run C:/Users/z.grover/Documents/python/review131138/review131138.py# Tue, 06 Dec 2016 10:59:34
+piglatin(nameList)
+#[Out]# ['omerHay',
+#[Out]#  'artBay',
+#[Out]#  'isaLay',
+#[Out]#  'argeMay',
+#[Out]#  'aggieMay',
+#[Out]#  'edNay',
+#[Out]#  'odRay',
+#[Out]#  'oddTay',
+#[Out]#  'alphRay',
+#[Out]#  'oeMay',
+#[Out]#  'illhouseMay',
+#[Out]#  'rustyKay',
+#[Out]#  'obBay',
+#[Out]#  'arneyBay',
+#[Out]#  'ennyLay',
+#[Out]#  'arlCay',
+#[Out]#  'ontgomeryMay',
+#[Out]#  'aylonWay',
+#[Out]#  'elsonNay',
+#[Out]#  'heriSay',
+#[Out]#  'eriTay',
+#[Out]#  'imboJay',
+#[Out]#  'earneyKay',
+#[Out]#  'attyPay',
+#[Out]#  'elmaSay',
+#[Out]#  'Ottoay',
+#[Out]#  'Apuay',
+#[Out]#  'Uteray',
+#[Out]#  'Ernestay',
+#[Out]#  'Isabellaay']
+# Tue, 06 Dec 2016 10:59:51
+%logstop
+%logstart -ort review1311138.log append
+#test
+%logstop
+%cd "C:\Users\z.grover\Documents\python\review131138"
+# Wed, 07 Dec 2016 10:23:34
+#test
+

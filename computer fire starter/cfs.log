@@ -1,0 +1,52 @@
+%cd "C:\Users\z.grover\Documents\python\1_3_8"
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%logstart -ort zgrover138.log append
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+#9.0 6000
+#11 365 depending on if it is a leap year
+#11 because you cant split the middle
+#it i think they keep their inventory sorted because it gets oppend up multiple times.
+#a while loop runs as long as a condition is true and a for loop runns a finite number of times
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%logstop
+%cd "C:\Users\z.grover\Documents\python\computer fire starter"
+%run "C:/Users/z.grover/Documents/python/computer fire starter/cfs.py"
+# Wed, 30 Nov 2016 10:50:30
+computerfirestarter()
+# Wed, 30 Nov 2016 10:51:04
+%logstop
+%cd "C:\Users\z.grover\Documents\python\1_3_8"
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%logstart -ort zgrover138.log append
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+goguess()
+#9.0 6000
+#11 365 depending on if it is a leap year
+#11 because you cant split the middle
+#it i think they keep their inventory sorted because it gets oppend up multiple times.
+#a while loop runs as long as a condition is true and a for loop runns a finite number of times
+%run C:/Users/z.grover/Documents/python/1_3_8/zachgrover138.py
+%logstop
+%cd "C:\Users\z.grover\Documents\python\computer fire starter"
+%run "C:/Users/z.grover/Documents/python/computer fire starter/cfs.py"
+%logstart -ort cfs.log append
+computerfirestarter()
+%logstop
+%run "c:\users\z3472~1.gro\appdata\local\temp\tmplw9iim.py"
+# Wed, 30 Nov 2016 10:53:33
+cfs()

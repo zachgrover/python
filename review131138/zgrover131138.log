@@ -1,0 +1,64 @@
+%cd "C:\Users\z.grover\Documents\python\review131138"
+# Mon, 05 Dec 2016 10:15:18
+list2 = range (4,41,3)
+# Mon, 05 Dec 2016 10:15:26
+list2
+#[Out]# [4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40]
+# Mon, 05 Dec 2016 10:20:37
+def countByThree():
+    for each in list2:
+        print list2[each]
+        
+# Mon, 05 Dec 2016 10:20:47
+countByThree()
+# Mon, 05 Dec 2016 10:22:36
+def countByThree():
+    for each in list2:
+        print each
+        
+# Mon, 05 Dec 2016 10:22:39
+countByThree()
+# Mon, 05 Dec 2016 10:31:46
+def sumToLimit(limit):
+    x = 0
+    y = 0
+    while x < limit:
+        y = raw_input('add a number: ')
+        x = int(y) + x 
+        
+# Mon, 05 Dec 2016 10:32:37
+def sumToLimit(limit):
+    x = 0
+    y = 0
+    while x < limit:
+        y = raw_input('add a number: ')
+        x = int(y) + x
+        print x
+   print 'you have exceded your limit'     
+   
+# Mon, 05 Dec 2016 10:32:53
+def sumToLimit(limit):
+    x = 0
+    y = 0
+    while x < limit:
+        y = raw_input('add a number: ')
+        x = int(y) + x
+        print x
+    print 'you have exceded your limit'
+    
+# Mon, 05 Dec 2016 10:33:08
+sumToLimit(100)
+# Mon, 05 Dec 2016 10:33:16
+5
+#[Out]# 5
+# Mon, 05 Dec 2016 10:33:59
+SumToLimit(29)
+# Mon, 05 Dec 2016 10:34:24
+sumToLimit(37)
+# Mon, 05 Dec 2016 10:36:23
+sumToLimit(37)
+# Mon, 05 Dec 2016 10:37:53
+pi
+#[Out]# 3.141592653589793
+# Mon, 05 Dec 2016 10:38:02
+%logstop
